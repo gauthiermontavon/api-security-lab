@@ -6,6 +6,7 @@ app = FastAPI()
 USERS = [
     {"id": 1, "username": "admin", "role": "admin"},
     {"id": 2, "username": "user", "role": "user"},
+    {"id": 3, "username": "user1", "role": "user"}
 ]
 
 @app.get("/users")
