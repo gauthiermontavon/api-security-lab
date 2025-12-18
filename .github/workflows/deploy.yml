@@ -18,7 +18,7 @@ jobs:
         ssh_private_key: ${{ secrets.HETZ_VPS_SSH_PRIVATE_KEY }}
         ssh_user: ${{ secrets.HETZ_VPS_SSH_USER }}
         ssh_pass: ${{ secrets.HETZ_VPS_SSH_PASS }}
-        docker_compose_prefix: example_com
+        docker_compose_prefix: api-sec-lab
         pull: true # Update images when pulling
 
 
